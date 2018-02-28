@@ -1,25 +1,8 @@
 {
-  "name": "SparkPost Forwarding Service",
-  "description": "A small Heroku service that will consume inbound message webhook POSTs and forward them through the Transmissions API to a mailbox.",
-  "keywords": [
-    "sparkpost",
-    "email"
-  ],
-  "website": "https://developers.sparkpost.com",
-  "repository": "https://github.com/SparkPost/sp-forwarding-service",
-  "logo": "https://developers.sparkpost.com/images/logo-sparkpost.png",
-  "success_url": "/index.html",
-  "env": {
-    "FORWARD_FROM": {
-      "description": "The email address from which forwarded messages are sent.",
-      "value": "forward@sparkpostbox.com"
-    },
-    "FORWARD_TO": {
-      "description": "The email address to which forwarded messages are sent."
-    }
-  },
-  "addons": [
-    "heroku-redis",
-    "sparkpost"
-  ]
+  "name": "Start on Heroku: Node.js",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
 }
