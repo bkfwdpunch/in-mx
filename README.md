@@ -7,7 +7,7 @@ forward them through the Transmissions API to a mailbox.
 
 Start by clicking on the following button:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)][deploy]
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)][deploy] (does not work)
 
 Once the deployment completes click on the "View" button under "Your app was
 successfully deployed". (Alternatively browse to
